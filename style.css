@@ -1,0 +1,104 @@
+
+.container1{
+      /* width: 1500px; */
+    /* height: 700px;   */
+    /* border: 2px solid black; */
+    /* margin: 5px; */
+    text-align: center;
+    background-color: bisque;
+    padding: 10px;
+}
+.container2{
+     /* width: 1440px;
+    height: 480px;  */
+     /* border: 2px solid black; */
+    margin: 5px;
+}
+.a{
+     width: 350px;
+    height: 300px; 
+     /* border: 2px solid black; */
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    background-color: red;
+    vertical-align: top;
+    padding: 10px;
+
+
+}
+.b,.c,.d{
+        width: 250px;
+       height: 300px; 
+        /* border: 2px solid black; */
+       margin: 5px;
+       display: inline-block;
+       text-align: center; 
+       vertical-align: top;
+       padding: 10px;
+       background-color: white;
+       
+}
+
+a{
+    text-decoration: none;
+}
+a{
+padding: 8px;
+font-size: 18px;
+background-color: red;
+outline: 1px solid red ;
+color: white;
+border-radius: 08px;
+transition: ease;
+
+
+
+}
+a:hover{
+background-color: white;
+color: red;
+
+
+
+
+}
+ .b1,.c1,.d1{
+    font-size: 30px;
+    text-align: center;
+    top: 10px;
+    left: 15px;
+    background-color: rgb(232, 236, 234);
+    color: red;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    margin-left: 85px;
+    transition: 1s ease;
+
+    /* transition: all,3s; */
+
+
+    
+
+}
+/* .b:hover i,.c:hover i,.d:hover i{
+    color: white;
+    background-color: red;
+
+} */
+ .b:hover>.b1,.c:hover>.c1,.d:hover>.d1{
+    color: white;
+    background-color: red;
+    /* transition: 2s ease; */
+
+ }
+
+
+ 
+ 
+ 
+ 
+
+
